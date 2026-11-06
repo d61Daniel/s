@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ps5mod",
+  "version": "${version}",
+  "name": "PS5 Mod",
+  "description": "Uma PS5 e uma TV: liga o cabo HDMI, liga a consola e joga.",
+  "authors": ["Tu"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.ps5mod.Ps5Mod"],
+    "client": ["com.ps5mod.client.Ps5Client"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
